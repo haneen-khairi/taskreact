@@ -621,7 +621,7 @@ font-size:3rem;
     /* Media Query for low resolution  Tablets, Ipads */
     @media (min-width: 481px) and (max-width: 767px) {
       .nav-header ul .nav-item .input-search-header {
-        width: 100%;
+ display:none;
       }
       footer div ul{
           margin-left:0px;
