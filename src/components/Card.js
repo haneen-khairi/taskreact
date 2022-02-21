@@ -12,16 +12,17 @@ const Card = ({ isPopular }) => {
         </div>
         <h5 class="card-name">Autumn women's new high-waist slim..</h5>
         {isPopular && (
-          <div >
+       
+            <div class="card-bodys">
             <p class="size">size:0000</p>
             <p class="old-price strikethrough">40 KWD</p>
             <p class="new-price">40 KWD</p>
-            <div className="row">
+           
             <div class="bottom-card">
               <a href="#" class="btn-minus">
-                {" "}
+                {/* {" "} */}
                 <i class="fa-solid fa-minus"></i>
-                {" "}
+                {/* {" "} */}
               </a>
               <input
                 type="text"
@@ -38,8 +39,9 @@ const Card = ({ isPopular }) => {
                 ADD
               </a>
             </div>
-          </div>
-          </div>
+            </div>
+ 
+        
         )}
       </div>
     </div>

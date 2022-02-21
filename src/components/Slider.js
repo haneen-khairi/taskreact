@@ -60,17 +60,40 @@ export default function SimpleSlider() {
       dots: true
     }]
   };
-  const images = ["img/slide1.png", "img/slide1.png", "img/slide1.png"];
+  // const images = ["img/slide1.png", "img/slide1.png", "img/slide1.png"];
   return (
     <div>
     <Slider {...settings} className="sliderContainer"  CustomArrowProps>
     
-      {images.map((item, index) => (
+      {/* {images.map((item, index) => (
         
         <img src={item} key={index} className="sliderImg" alt={index} />
         
-      ))}
-      
+      ))} */}
+       <div>
+            <img src="img/slide1.png" alt="shopping grocery xpress "/>
+            <div class="offer-area">
+              <h1>70% Off </h1>
+              <h2>on everything today</h2>
+              <a href="" class="btn-get-offer">Get Now</a>
+            </div>
+            </div>
+            <div>
+            <img src="img/slide1.png" alt="shopping grocery xpress "/>
+            <div class="offer-area">
+              <h1>70% Off </h1>
+              <h2>on everything today</h2>
+              <a href="" class="btn-get-offer">Get Now</a>
+            </div>
+            </div>
+            <div>
+            <img src="img/slide1.png" alt="shopping grocery xpress "/>
+            <div class="offer-area">
+              <h1>70% Off </h1>
+              <h2>on everything today</h2>
+              <a href="" class="btn-get-offer">Get Now</a>
+            </div>
+            </div>
     </Slider>
   </div>
     

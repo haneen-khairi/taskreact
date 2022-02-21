@@ -35,7 +35,80 @@ export default function BasicMenu() {
         }}
         className="cartMenu"
       >
-        <div className="menuContainer"></div>
+        <div className="menuContainer">
+        <ul class="sub-menu">
+                <li>
+                  <div class="flex-rows">
+                  <div class="img-delete col-1">
+                    <img src="img/icn_delete.png" alt=""/>
+                    </div>
+                    <div class="img-submenu col-3">
+                      <img src="img/img.png" alt="image in the cart"/>
+                    </div>
+                    <div class="description-img col-5">
+                      <p>Floral Print Wrap Dress</p>
+                      <p class="color-black">size: 42</p>
+                    </div>
+                    <div class="qty col-3">
+                      <p  class="color-black">Qty:1</p>
+                      <p>$21.50</p>
+                    </div>
+                  </div>
+                  <div class="flex-rows">
+                    <div class="img-delete col-1">
+                      <img src="img/icn_delete.png" alt=""/>
+                      </div>
+                      <div class="img-submenu col-3">
+                        <img src="img/img.png" alt="image in the cart"/>
+                      </div>
+                      <div class="description-img col-5">
+                        <p>Floral Print Wrap Dress</p>
+                        <p class="color-black">size: 42</p>
+                      </div>
+                      <div class="qty col-3">
+                        <p class="color-black">Qty:1</p>
+                        <p>$32.50</p>
+                      </div>
+                    </div>
+                    <div class="flex-rows">
+                      <div class="img-delete col-1">
+                        <img src="img/icn_delete.png" alt=""/>
+                        </div>
+                        <div class="img-submenu col-3">
+                          <img src="img/img.png" alt="image in the cart"/>
+                        </div>
+                        <div class="description-img col-5">
+                          <p>Floral Print Wrap Dress</p>
+                          <p class="color-black">size: 42</p>
+                        </div>
+                        <div class="qty col-3">
+                          <p class="color-black">Qty:1</p>
+                          <p>$32.50</p>
+                        </div>
+                      </div>
+                      
+                  <hr/>
+                  <h6>Address</h6>
+                  <div class="row">
+                  <div class="col-9">
+                  <p> Block Number, Street Name </p>
+                  <p> Building Floor,Apartment </p>
+                </div>
+                <div class="col-3">
+                  <p class="color-black">Subtotal </p>
+                  <p class="color-pink">$54.00</p>
+                </div>
+                  </div>
+                  <div class="button-area">
+                    <a href="" class="btn-pink">Show All</a>
+                    <a href="" class="btn-pink">Cheakout</a>
+                  </div>
+              
+                  
+                </li>
+                
+              </ul>
+        </div>
       </Menu>
     </div>
   );
